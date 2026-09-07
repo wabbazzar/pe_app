@@ -2178,6 +2178,22 @@
         "sibur",
         "strabag"
       ]
+    },
+    {
+      "id": "2026-09-07-mercy_for_animals_investigations",
+      "date": "2026-09-07",
+      "title": "Three egg giants, one industry-wide pattern of cage cruelty",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "Cross-referencing Mercy For Animals' investigation trail with HSUS undercover footage turned up three of the country's largest shell-egg producers with documented, dated cruelty findings that had never made it into the database.",
+      "body": "Rose Acre Farms and Rembrandt Enterprises are the second- and third-largest US egg producers, and both were hit by the same Humane Society of the United States undercover operation in February-March 2010: hens in cages the size of a sheet of paper, birds with broken bones and prolapsed uteruses, and cages shared with decomposing carcasses. Cal-Maine Foods, the largest US shell-egg producer, had its own 2010 HSUS investigation in Waelder, Texas documenting salmonella-compromised eggs and birds trapped in rusted cage wire across 18 barns holding over a million hens — and a 2018 undercover video at its Lake Wales, Florida facility led to a criminal animal-cruelty charge against a worker recorded beating and killing hens.\n\nRembrandt Enterprises stands out for a second, more recent incident: in March 2022, after an avian-influenza detection, the company killed 5.3 million chickens using ventilation shutdown, a method that cuts barn airflow so temperatures climb above 104°F and birds die of heat over hours. More than 200 workers were dismissed in the same response.\n\nThese three firms supply the shell eggs behind store brands and food-service accounts most shoppers never see named — which is exactly why the parent company, not the label, is the unit that matters here.",
+      "entityIds": [
+        "cal_maine_foods",
+        "rembrandt_enterprises",
+        "rose_acre_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

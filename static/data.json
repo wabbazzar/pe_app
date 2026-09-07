@@ -15841,6 +15841,102 @@
 				}
 			],
 			"addedAt": "2026-09-06"
+		},
+		{
+			"id": "rose_acre_farms",
+			"name": "Rose Acre Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "The second-largest egg producer in the US, operating battery-cage laying facilities across several states. A Humane Society of the United States undercover investigation at Rose Acre's Iowa egg factories (Feb-Mar 2010) documented hens confined in cages the size of a sheet of paper, birds with broken bones and prolapsed uteruses, and hens kept alongside decomposing carcasses.",
+			"blurb": "Commercial egg producer supplying shell eggs to retail and food-service customers nationwide.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.humaneworld.org/sites/default/files/docs/2010-report-iowa-egg.pdf",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Humane Society of the United States undercover investigation at Rose Acre's Iowa egg factories (Feb-Mar 2010) documented hens confined in cages the size of a sheet of paper, birds with broken bones and prolapsed uteruses, and hens kept alongside decomposing carcasses.",
+					"date": "2010-03",
+					"actor": "Humane Society of the United States",
+					"sourceUrl": "https://www.humaneworld.org/sites/default/files/docs/2010-report-iowa-egg.pdf"
+				}
+			],
+			"addedAt": "2026-09-07"
+		},
+		{
+			"id": "cal_maine_foods",
+			"name": "Cal-Maine Foods",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "The largest US shell-egg producer, supplying major grocery chains including Walmart. A 2010 Humane Society of the United States undercover investigation at a Cal-Maine facility in Waelder, Texas documented dead birds left in cramped cages, birds trapped in rusted cage wire unable to reach food or water, and salmonella-compromised eggs across 18 barns holding over a million laying hens. A separate 2018 undercover video at a Cal-Maine facility in Lake Wales, Florida led to a criminal animal-cruelty charge against a facility worker who was recorded striking and killing hens.",
+			"blurb": "The largest producer and marketer of shell eggs in the United States.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 60,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.fox13news.com/news/polk-co-egg-farm-accused-of-animal-abuse-after-undercover-video-released",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A separate 2018 undercover video at a Cal-Maine facility in Lake Wales, Florida led to a criminal animal-cruelty charge against a facility worker who was recorded striking and killing hens.",
+					"date": "2018-01",
+					"actor": "Polk County Sheriff's Office",
+					"sourceUrl": "https://www.fox13news.com/news/polk-co-egg-farm-accused-of-animal-abuse-after-undercover-video-released"
+				}
+			],
+			"addedAt": "2026-09-07"
+		},
+		{
+			"id": "rembrandt_enterprises",
+			"name": "Rembrandt Enterprises",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "One of the largest US egg producers and processors, owned by Glen Taylor. A 2010 Humane Society of the United States undercover investigation at Rembrandt's Iowa egg factories documented extreme battery-cage confinement alongside similar conditions found at Rose Acre Farms. In March 2022, following an avian-influenza detection, the company killed 5.3 million chickens using ventilation shutdown -- cutting airflow so barn temperatures rise above 104F and birds die of heat over hours -- and then dismissed more than 200 workers.",
+			"blurb": "Egg production and processing company operating large-scale laying-hen facilities in Iowa.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.cbsnews.com/news/rembrandt-farms-iowa-avian-flu-kills-5-million-chickens-fires-workers/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In March 2022, following an avian-influenza detection, the company killed 5.3 million chickens using ventilation shutdown -- cutting airflow so barn temperatures rise above 104F and birds die of heat over hours -- and then dismissed more than 200 workers.",
+					"date": "2022-03",
+					"actor": "Rembrandt Enterprises",
+					"sourceUrl": "https://www.cbsnews.com/news/rembrandt-farms-iowa-avian-flu-kills-5-million-chickens-fires-workers/"
+				}
+			],
+			"addedAt": "2026-09-07"
 		}
 	],
 	"brands": [
@@ -34438,6 +34534,93 @@
 				}
 			],
 			"addedAt": "2026-09-06"
+		},
+		{
+			"id": "rose_acre_farms",
+			"avoid": "Rose Acre Farms",
+			"ownership": [
+				{
+					"firmId": "rose_acre_farms",
+					"stake": "majority",
+					"since": "2000"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "The second-largest egg producer in the US, operating battery-cage laying facilities across several states. A Humane Society of the United States undercover investigation at Rose Acre's Iowa egg factories (Feb-Mar 2010) documented hens confined in cages the size of a sheet of paper, birds with broken bones and prolapsed uteruses, and hens kept alongside decomposing carcasses.",
+			"blurb": "Commercial egg producer supplying shell eggs to retail and food-service customers nationwide.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Humane Society of the United States undercover investigation at Rose Acre's Iowa egg factories (Feb-Mar 2010) documented hens confined in cages the size of a sheet of paper, birds with broken bones and prolapsed uteruses, and hens kept alongside decomposing carcasses.",
+					"date": "2010-03",
+					"actor": "Humane Society of the United States",
+					"sourceUrl": "https://www.humaneworld.org/sites/default/files/docs/2010-report-iowa-egg.pdf"
+				}
+			],
+			"addedAt": "2026-09-07"
+		},
+		{
+			"id": "cal_maine_foods",
+			"avoid": "Cal-Maine Foods",
+			"ownership": [
+				{
+					"firmId": "cal_maine_foods",
+					"stake": "majority",
+					"since": "2000"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "The largest US shell-egg producer, supplying major grocery chains including Walmart. A 2010 Humane Society of the United States undercover investigation at a Cal-Maine facility in Waelder, Texas documented dead birds left in cramped cages, birds trapped in rusted cage wire unable to reach food or water, and salmonella-compromised eggs across 18 barns holding over a million laying hens. A separate 2018 undercover video at a Cal-Maine facility in Lake Wales, Florida led to a criminal animal-cruelty charge against a facility worker who was recorded striking and killing hens.",
+			"blurb": "The largest producer and marketer of shell eggs in the United States.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A separate 2018 undercover video at a Cal-Maine facility in Lake Wales, Florida led to a criminal animal-cruelty charge against a facility worker who was recorded striking and killing hens.",
+					"date": "2018-01",
+					"actor": "Polk County Sheriff's Office",
+					"sourceUrl": "https://www.fox13news.com/news/polk-co-egg-farm-accused-of-animal-abuse-after-undercover-video-released"
+				}
+			],
+			"addedAt": "2026-09-07"
+		},
+		{
+			"id": "rembrandt_enterprises",
+			"avoid": "Rembrandt Enterprises",
+			"ownership": [
+				{
+					"firmId": "rembrandt_enterprises",
+					"stake": "majority",
+					"since": "2000"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "One of the largest US egg producers and processors, owned by Glen Taylor. A 2010 Humane Society of the United States undercover investigation at Rembrandt's Iowa egg factories documented extreme battery-cage confinement alongside similar conditions found at Rose Acre Farms. In March 2022, following an avian-influenza detection, the company killed 5.3 million chickens using ventilation shutdown -- cutting airflow so barn temperatures rise above 104F and birds die of heat over hours -- and then dismissed more than 200 workers.",
+			"blurb": "Egg production and processing company operating large-scale laying-hen facilities in Iowa.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In March 2022, following an avian-influenza detection, the company killed 5.3 million chickens using ventilation shutdown -- cutting airflow so barn temperatures rise above 104F and birds die of heat over hours -- and then dismissed more than 200 workers.",
+					"date": "2022-03",
+					"actor": "Rembrandt Enterprises",
+					"sourceUrl": "https://www.cbsnews.com/news/rembrandt-farms-iowa-avian-flu-kills-5-million-chickens-fires-workers/"
+				}
+			],
+			"addedAt": "2026-09-07"
 		}
 	]
 }
