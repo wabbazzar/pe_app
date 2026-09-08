@@ -15937,6 +15937,102 @@
 				}
 			],
 			"addedAt": "2026-09-07"
+		},
+		{
+			"id": "emanuel_exports",
+			"name": "Emanuel Exports",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Emanuel Exports was Australia's largest live-sheep export company, controlling roughly half the national trade. In August 2017, 2,400 sheep died of heat stress aboard its ship Awassi Express on a voyage to the Middle East; whistleblower footage aired on 60 Minutes Australia in April 2018 showed sheep caked in feces, decomposing carcasses left among living animals, and pregnant ewes giving birth as their lambs died. The company's export license was revoked by the Australian government in 2018 following the investigation.",
+			"blurb": "Livestock exporter that shipped live sheep from Australia to Middle East markets.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 62,
+			"source": "https://www.abc.net.au/news/2023-11-14/animal-cruelty-charges-dropped-emanuel-exports-live-sheep-trade/103100850",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In August 2017, 2,400 sheep died of heat stress aboard its ship Awassi Express on a voyage to the Middle East; whistleblower footage aired on 60 Minutes Australia in April 2018 showed sheep caked in feces, decomposing carcasses left among living animals, and pregnant ewes giving birth as their lambs died.",
+					"date": "2017-08",
+					"actor": "Australian Department of Agriculture",
+					"sourceUrl": "https://www.abc.net.au/news/2023-11-14/animal-cruelty-charges-dropped-emanuel-exports-live-sheep-trade/103100850"
+				}
+			],
+			"addedAt": "2026-09-08",
+			"scope": "single_company",
+			"role": "actor"
+		},
+		{
+			"id": "hohbergs_poultry_ranches",
+			"name": "Hohberg's Poultry Ranches",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Hohberg's Poultry Ranches is a California battery-cage egg producer. In February 2017 the San Bernardino County District Attorney filed 39 counts of violating California's Proposition 2 (Prevention of Farm Animal Cruelty Act) plus 16 misdemeanor animal-cruelty counts against the farm, the first criminal prosecution under that law. Investigators serving a search warrant found roughly 28,800 hens confined in cages too small to allow them to spread their wings, with dead hens decaying beside live hens still laying eggs for human consumption.",
+			"blurb": "California egg producer operating battery-cage hen facilities.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 60,
+			"source": "https://aldf.org/article/first-criminal-charges-filed-under-californias-prevention-of-farm-animal-cruelty-act/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In February 2017 the San Bernardino County District Attorney filed 39 counts of violating California's Proposition 2 plus 16 misdemeanor animal-cruelty counts, the first criminal prosecution under that law. Investigators found roughly 28,800 hens confined in cages too small to spread their wings, with dead hens decaying beside live hens still laying eggs for human consumption.",
+					"date": "2017-02",
+					"actor": "San Bernardino County District Attorney",
+					"sourceUrl": "https://aldf.org/article/first-criminal-charges-filed-under-californias-prevention-of-farm-animal-cruelty-act/"
+				}
+			],
+			"addedAt": "2026-09-08",
+			"scope": "narrow",
+			"role": "actor"
+		},
+		{
+			"id": "kuku_farms",
+			"name": "Kuku Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "Kuku Farms is an Alberta egg-production facility near Edmonton that supplies eggs to Burnbrae Farms, the primary egg supplier to McDonald's Canada. A Mercy For Animals Canada undercover investigator worked at Kuku Farms for 10 weeks in summer 2013 and captured hidden-camera footage, broadcast by CTV's W5 in October 2013, showing thousands of hens crammed into barren battery cages unable to stretch their wings, injured chickens left to suffer without veterinary care, dead hens left in cages beside live hens, and newly hatched male chicks having their heads smashed and being thrown into garbage bags or incinerators while still alive.",
+			"blurb": "Egg-production farm near Edmonton, Alberta supplying Canadian grocery and fast-food chains.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 61,
+			"source": "https://www.ctvnews.ca/w5/undercover-investigation-reveals-horrific-conditions-within-egg-industry-1.1503296",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Mercy For Animals Canada undercover investigator worked at Kuku Farms for 10 weeks in summer 2013 and captured hidden-camera footage, broadcast by CTV's W5 in October 2013, showing thousands of hens crammed into barren battery cages unable to stretch their wings, injured chickens left to suffer without veterinary care, dead hens left in cages beside live hens, and newly hatched male chicks having their heads smashed and being thrown into garbage bags or incinerators while still alive.",
+					"date": "2013-10",
+					"actor": "Mercy For Animals Canada / CTV W5",
+					"sourceUrl": "https://www.ctvnews.ca/w5/undercover-investigation-reveals-horrific-conditions-within-egg-industry-1.1503296"
+				}
+			],
+			"addedAt": "2026-09-08",
+			"scope": "narrow",
+			"role": "actor"
 		}
 	],
 	"brands": [
@@ -34621,6 +34717,93 @@
 				}
 			],
 			"addedAt": "2026-09-07"
+		},
+		{
+			"id": "emanuel_exports",
+			"avoid": "Emanuel Exports",
+			"ownership": [
+				{
+					"firmId": "emanuel_exports",
+					"stake": "majority",
+					"since": "1990"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Emanuel Exports controlled about half of Australia's live-sheep export trade. In August 2017, 2,400 sheep died of heat stress aboard its ship the Awassi Express during a voyage to the Middle East. Whistleblower footage broadcast on 60 Minutes Australia in April 2018 documented sheep caked in melted feces and urine, injured and sick animals left to die slowly, decomposed bodies left in pens among living sheep, and pregnant ewes giving birth as their lambs died in transit. Australia's agriculture department revoked the company's export license in 2018 after an 18-month investigation.",
+			"blurb": "Exported live sheep by ship from Australia to Middle East markets.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In August 2017, 2,400 sheep died of heat stress aboard its ship the Awassi Express during a voyage to the Middle East. Whistleblower footage broadcast on 60 Minutes Australia in April 2018 documented sheep caked in melted feces and urine, injured and sick animals left to die slowly, decomposed bodies left in pens among living sheep, and pregnant ewes giving birth as their lambs died in transit.",
+					"date": "2017-08",
+					"actor": "60 Minutes Australia / Australian Dept of Agriculture",
+					"sourceUrl": "https://www.abc.net.au/news/2023-11-14/animal-cruelty-charges-dropped-emanuel-exports-live-sheep-trade/103100850"
+				}
+			],
+			"addedAt": "2026-09-08"
+		},
+		{
+			"id": "hohbergs_poultry_ranches",
+			"avoid": "Hohberg's Poultry Ranches",
+			"ownership": [
+				{
+					"firmId": "hohbergs_poultry_ranches",
+					"stake": "majority",
+					"since": "1960"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Hohberg's Poultry Ranches confined roughly 28,800 hens in battery cages in San Bernardino County, California. In February 2017, county prosecutors filed 39 counts of violating California's Proposition 2 (Prevention of Farm Animal Cruelty Act) — the first criminal charges ever brought under that law — plus 16 misdemeanor animal-cruelty counts. A 2016 search warrant executed by the Inland Valley Humane Society, Ontario Police Department, and the Humane Society of the United States found dead hens decaying in the same cages as living hens still laying eggs for human consumption, and birds unable to fully spread their wings.",
+			"blurb": "Produces eggs from battery-cage hen operations in Southern California.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "In February 2017, county prosecutors filed 39 counts of violating California's Proposition 2 — the first criminal charges ever brought under that law — plus 16 misdemeanor animal-cruelty counts. A 2016 search warrant found dead hens decaying in the same cages as living hens still laying eggs for human consumption.",
+					"date": "2017-02",
+					"actor": "San Bernardino County District Attorney",
+					"sourceUrl": "https://aldf.org/article/first-criminal-charges-filed-under-californias-prevention-of-farm-animal-cruelty-act/"
+				}
+			],
+			"addedAt": "2026-09-08"
+		},
+		{
+			"id": "kuku_farms",
+			"avoid": "Kuku Farms",
+			"ownership": [
+				{
+					"firmId": "kuku_farms",
+					"stake": "majority",
+					"since": "1990"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "Kuku Farms, an Alberta egg producer near Edmonton, supplied eggs to Burnbrae Farms, the primary egg supplier to McDonald's Canada. A Mercy For Animals Canada investigator worked undercover at the farm for 10 weeks in summer 2013; hidden-camera footage broadcast on CTV's W5 in October 2013 showed thousands of hens crammed into barren battery cages with no room to stretch their wings, injured birds left to suffer without veterinary care, dead hens left in cages beside live hens still laying eggs, and newly hatched male chicks having their heads smashed and being thrown into garbage bags or incinerators while still alive. McDonald's supplier Burnbrae subsequently dropped Kuku Farms as a source.",
+			"blurb": "Alberta egg-production farm supplying grocery and fast-food egg buyers.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A Mercy For Animals Canada investigator worked undercover at the farm for 10 weeks in summer 2013; hidden-camera footage broadcast on CTV's W5 in October 2013 showed thousands of hens crammed into barren battery cages, injured birds left without veterinary care, dead hens left in cages beside live hens, and newly hatched male chicks having their heads smashed and being thrown into garbage bags or incinerators while still alive.",
+					"date": "2013-10",
+					"actor": "Mercy For Animals Canada / CTV W5",
+					"sourceUrl": "https://www.ctvnews.ca/w5/undercover-investigation-reveals-horrific-conditions-within-egg-industry-1.1503296"
+				}
+			],
+			"addedAt": "2026-09-08"
 		}
 	]
 }

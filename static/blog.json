@@ -2194,6 +2194,22 @@
         "rose_acre_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-08-mercy_for_animals_investigations",
+      "date": "2026-09-08",
+      "title": "Three factory-farm investigations, three decades apart, same pattern",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "New records span an Australian live-export shipper, a Canadian egg farm caught by hidden camera in 2013, and a California egg producer prosecuted under a landmark cruelty law — each surfaced by an animal-welfare investigator, none stopped by industry self-policing.",
+      "body": "Emanuel Exports controlled roughly half of Australia's live-sheep export trade until 2,400 animals died of heat stress aboard its ship the Awassi Express in August 2017. Whistleblower footage aired on 60 Minutes Australia the following spring showed sheep caked in feces, decomposing carcasses left among the living, and pregnant ewes giving birth as their lambs died in transit. The government revoked the company's export license within the year.\n\nKuku Farms, an Alberta egg operation near Edmonton, fed directly into McDonald's Canada's supply chain through Burnbrae Farms. A Mercy For Animals Canada investigator spent ten weeks working undercover there in the summer of 2013; the footage that resulted, broadcast on CTV's W5, showed hens packed into battery cages too small to let them stretch a wing, and newly hatched male chicks thrown into incinerators alive. Burnbrae dropped the farm as a supplier once the story ran.\n\nHohberg's Poultry Ranches in San Bernardino County became the first farm ever criminally charged under California's Proposition 2. A 2016 search warrant found roughly 28,800 hens confined so tightly they couldn't spread their wings, with dead birds left decaying beside live ones still laying eggs for sale. Prosecutors filed 39 counts under the animal-cruelty law plus 16 misdemeanor charges.\n\nWhat connects these three is timing, not geography: each abuse continued for years before an investigator, not a regulator, forced the issue into public view.",
+      "entityIds": [
+        "emanuel_exports",
+        "hohbergs_poultry_ranches",
+        "kuku_farms"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }
