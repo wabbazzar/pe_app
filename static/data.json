@@ -4106,7 +4106,7 @@
 			"name": "Goldman Sachs Group",
 			"aum": "$2.8T",
 			"aumVal": 2800,
-			"summary": "Goldman Sachs is one of the world's largest investment banks and financial services companies, headquartered in New York. Its Malaysian subsidiary pleaded guilty in 2020 to a US Department of Justice conspiracy to violate the Foreign Corrupt Practices Act in connection with the 1MDB sovereign wealth fund scandal, paying $2.9B to US authorities and $3.9B globally. ICIJ's FinCEN Files (2020) documented Goldman Sachs processing hundreds of suspicious transactions flagged in FinCEN Suspicious Activity Reports while continuing business relationships with high-risk counterparties. The 1MDB scheme, which Goldman helped structure and sell, drained $4.5B from a Malaysian state fund through offshore shell companies — making it the largest financial fraud in Malaysian history. Flagged under elite_impunity_general.",
+			"summary": "Goldman Sachs is one of the world's largest investment banks and financial services companies, headquartered in New York. Its Malaysian subsidiary pleaded guilty in 2020 to a US Department of Justice conspiracy to violate the Foreign Corrupt Practices Act in connection with the 1MDB sovereign wealth fund scandal, paying $2.9B to US authorities and $3.9B globally. ICIJ's FinCEN Files (2020) documented Goldman Sachs processing hundreds of suspicious transactions flagged in FinCEN Suspicious Activity Reports while continuing business relationships with high-risk counterparties. The 1MDB scheme, which Goldman helped structure and sell, drained $4.5B from a Malaysian state fund through offshore shell companies — making it the largest financial fraud in Malaysian history. Flagged under elite_impunity_general. Separately, DOJ documents released in January 2026 revealed Goldman's chief legal officer Kathryn Ruemmler exchanged intimate emails with Epstein — calling him \"Uncle Jeffrey\" and accepting gifts including a Hermès bag — and was one of three people he called immediately after his July 2019 arrest; she resigned from Goldman in February 2026. Epstein also held an account at Goldman Sachs, per a suspicious-activity report JPMorgan filed with FinCEN after his death.",
 			"blurb": "American multinational investment bank providing advisory, securities trading, asset management, and consumer banking services.",
 			"brands": [
 				"Goldman Sachs"
@@ -4119,10 +4119,11 @@
 				"finance"
 			],
 			"harms": [
-				"elite_impunity_general"
+				"elite_impunity_general",
+				"elite_impunity_epstein_network"
 			],
 			"aligns": [],
-			"addedAt": "2026-04-11",
+			"addedAt": "2026-09-09",
 			"evidence": [
 				{
 					"tag": "elite_impunity_general",
@@ -4131,6 +4132,13 @@
 					"amountUsd": 2900000000,
 					"amountKind": "settlement",
 					"actor": "US Department of Justice"
+				},
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "Separately, DOJ documents released in January 2026 revealed Goldman's chief legal officer Kathryn Ruemmler exchanged intimate emails with Epstein — calling him \"Uncle Jeffrey\" and accepting gifts including a Hermès bag — and was one of three people he called immediately after his July 2019 arrest; she resigned from Goldman in February 2026. Epstein also held an account at Goldman Sachs, per a suspicious-activity report JPMorgan filed with FinCEN after his death.",
+					"date": "2026-02",
+					"actor": "Kathryn Ruemmler (chief legal officer)",
+					"sourceUrl": "https://www.cnbc.com/2026/02/12/epstein-files-goldman-sachs-kathy-ruemmler.html"
 				}
 			],
 			"scope": "systemic",
@@ -4141,7 +4149,7 @@
 			"name": "HSBC Holdings",
 			"aum": "$3T",
 			"aumVal": 3000,
-			"summary": "HSBC Holdings is one of the world's largest banks by total assets, headquartered in London. ICIJ's SwissLeaks investigation (2015) exposed HSBC's Swiss private banking arm as having systematically helped 30,000 wealthy clients across 200 countries hide assets from tax authorities, shielding approximately $100B from disclosure. The bank also paid $1.9B in 2012 to settle US DOJ charges of money laundering for Mexican drug cartels and sanctions violations for Iran, Sudan, and Libya — the largest bank settlement in US history at the time. HSBC's Swiss client files were leaked by whistleblower Hervé Falciani and published through ICIJ. Multiple clients named in SwissLeaks faced subsequent criminal tax charges. Flagged under elite_impunity_general.",
+			"summary": "HSBC Holdings is one of the world's largest banks by total assets, headquartered in London. ICIJ's SwissLeaks investigation (2015) exposed HSBC's Swiss private banking arm as having systematically helped 30,000 wealthy clients across 200 countries hide assets from tax authorities, shielding approximately $100B from disclosure. The bank also paid $1.9B in 2012 to settle US DOJ charges of money laundering for Mexican drug cartels and sanctions violations for Iran, Sudan, and Libya — the largest bank settlement in US history at the time. HSBC's Swiss client files were leaked by whistleblower Hervé Falciani and published through ICIJ. Multiple clients named in SwissLeaks faced subsequent criminal tax charges. Flagged under elite_impunity_general. A French branch of HSBC closed one of Epstein's private-bank accounts in December 2007 after compliance officers flagged suspicious transactions, including payments tied to modeling agent Jean-Luc Brunel — the only known instance of a major bank cutting ties with Epstein before his 2008 guilty plea. Despite that closure, Epstein maintained other HSBC private-bank accounts in Switzerland that surfaced in a 2019 JPMorgan suspicious-activity report filed with FinCEN.",
 			"blurb": "British multinational universal bank offering retail, commercial, and investment banking across global markets.",
 			"brands": [
 				"HSBC"
@@ -4154,10 +4162,11 @@
 				"finance"
 			],
 			"harms": [
-				"elite_impunity_general"
+				"elite_impunity_general",
+				"elite_impunity_epstein_network"
 			],
 			"aligns": [],
-			"addedAt": "2026-04-11",
+			"addedAt": "2026-09-09",
 			"evidence": [
 				{
 					"tag": "elite_impunity_general",
@@ -4166,6 +4175,13 @@
 					"amountUsd": 1900000000,
 					"amountKind": "settlement",
 					"actor": "US DOJ"
+				},
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "A French branch of HSBC closed one of Epstein's private-bank accounts in December 2007 after compliance officers flagged suspicious transactions, including payments tied to modeling agent Jean-Luc Brunel — the only known instance of a major bank cutting ties with Epstein before his 2008 guilty plea. Despite that closure, Epstein maintained other HSBC private-bank accounts in Switzerland that surfaced in a 2019 JPMorgan suspicious-activity report filed with FinCEN.",
+					"date": "2007-12",
+					"actor": "HSBC compliance officers (Paris branch)",
+					"sourceUrl": "https://www.bloomberg.com/features/2025-jeffrey-epstein-emails-hsbc/"
 				}
 			],
 			"scope": "systemic",
@@ -16033,6 +16049,109 @@
 			"addedAt": "2026-09-08",
 			"scope": "narrow",
 			"role": "actor"
+		},
+		{
+			"id": "bny_mellon",
+			"name": "Bank of New York Mellon",
+			"aum": "$2.0T",
+			"aumVal": 2000,
+			"summary": "Bank of New York Mellon (BNY) is one of the world's largest custody banks, providing asset servicing, custody, and investment management to institutional clients. Senate Finance Committee investigators found that Jeffrey Epstein moved $378 million through 270 wire transfers in and out of BNY accounts, including a string of 18 round-dollar $1 million wires in 2007 sent to his JPMorgan Chase accounts — a pattern Senator Ron Wyden called indicative of money laundering. BNY did not flag any of these transactions to federal regulators until 2019, more than a decade after they occurred.",
+			"blurb": "Global custody bank providing asset servicing, custody, and investment management for institutional clients.",
+			"brands": [
+				"Bank of New York Mellon"
+			],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 74,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.bloomberg.com/news/articles/2026-01-15/bny-s-378-million-of-epstein-transfers-draws-senator-s-scrutiny",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"elite_impunity_epstein_network"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "Bank of New York Mellon (BNY) is one of the world's largest custody banks, providing asset servicing, custody, and investment management to institutional clients. Senate Finance Committee investigators found that Jeffrey Epstein moved $378 million through 270 wire transfers in and out of BNY accounts, including a string of 18 round-dollar $1 million wires in 2007 sent to his JPMorgan Chase accounts — a pattern Senator Ron Wyden called indicative of money laundering. BNY did not flag any of these transactions to federal regulators until 2019, more than a decade after they occurred.",
+					"date": "2019",
+					"amountUsd": 378000000,
+					"actor": "Senate Finance Committee (Sen. Ron Wyden)",
+					"sourceUrl": "https://www.bloomberg.com/news/articles/2026-01-15/bny-s-378-million-of-epstein-transfers-draws-senator-s-scrutiny"
+				}
+			],
+			"addedAt": "2026-09-09"
+		},
+		{
+			"id": "david_protein",
+			"name": "David Protein, Inc.",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "David Protein is a venture-backed protein-bar startup co-founded in 2023, with longevity physician Peter Attia serving as chief science officer. DOJ documents released in January 2026 showed Attia's name appearing in Epstein's files more than 1,700 times, including personal and sexually crude email exchanges with Epstein throughout the 2010s. Attia has not been accused of wrongdoing and says he never visited Epstein's plane or island, but he stepped down as David Protein's chief science officer in February 2026 amid the fallout.",
+			"blurb": "Direct-to-consumer high-protein snack bar company selling shelf-stable protein bars.",
+			"brands": [
+				"David Protein"
+			],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 55,
+			"scope": "narrow",
+			"role": "actor",
+			"source": "https://techcrunch.com/2026/02/03/epstein-linked-longevity-guru-peter-attia-leaves-david-protein-and-his-own-startup-wont-comment/",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"elite_impunity_epstein_network"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "David Protein is a venture-backed protein-bar startup co-founded in 2023, with longevity physician Peter Attia serving as chief science officer. DOJ documents released in January 2026 showed Attia's name appearing in Epstein's files more than 1,700 times, including personal and sexually crude email exchanges with Epstein throughout the 2010s. Attia has not been accused of wrongdoing and says he never visited Epstein's plane or island, but he stepped down as David Protein's chief science officer in February 2026 amid the fallout.",
+					"date": "2026-02",
+					"actor": "Peter Attia (chief science officer)",
+					"sourceUrl": "https://techcrunch.com/2026/02/03/epstein-linked-longevity-guru-peter-attia-leaves-david-protein-and-his-own-startup-wont-comment/"
+				}
+			],
+			"addedAt": "2026-09-09"
+		},
+		{
+			"id": "dp_world",
+			"name": "DP World",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "DP World is a Dubai state-owned multinational logistics and port operator running marine terminals in more than 40 countries. Its longtime chairman and CEO, Sultan Ahmed bin Sulayem, was replaced as chairman in February 2026 after DOJ-released documents showed his name in Epstein's files over 9,400 times, including correspondence in which Epstein acted as an intermediary helping bin Sulayem lobby the UK government in 2009 for support on the £1.8 billion London Gateway port project. Canadian and UK finance groups paused new business with DP World following the revelations.",
+			"blurb": "State-owned global port operator and logistics company managing marine terminals and free-trade zones.",
+			"brands": [
+				"DP World"
+			],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 68,
+			"scope": "multi_company",
+			"role": "actor",
+			"source": "https://www.cnn.com/2026/02/13/business/dp-world-sultan-sulayem-epstein-intl",
+			"cats": [
+				"finance"
+			],
+			"harms": [
+				"elite_impunity_epstein_network"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "DP World is a Dubai state-owned multinational logistics and port operator running marine terminals in more than 40 countries. Its longtime chairman and CEO, Sultan Ahmed bin Sulayem, was replaced as chairman in February 2026 after DOJ-released documents showed his name in Epstein's files over 9,400 times, including correspondence in which Epstein acted as an intermediary helping bin Sulayem lobby the UK government in 2009 for support on the £1.8 billion London Gateway port project. Canadian and UK finance groups paused new business with DP World following the revelations.",
+					"date": "2026-02",
+					"actor": "DP World board",
+					"sourceUrl": "https://www.cnn.com/2026/02/13/business/dp-world-sultan-sulayem-epstein-intl"
+				}
+			],
+			"addedAt": "2026-09-09"
 		}
 	],
 	"brands": [
@@ -20495,13 +20614,14 @@
 			],
 			"cat": "finance",
 			"alts": [],
-			"why": "Goldman Sachs helped orchestrate the 1MDB scandal — the largest kleptocracy in Malaysian history — raising $6.5B in bonds for a sovereign wealth fund while its subsidiary paid $1.6B in bribes to secure the business. Goldman's Malaysian subsidiary pleaded guilty in 2020; the bank paid $2.9B to US authorities and $3.9B globally. ICIJ's FinCEN Files documented Goldman Sachs processing suspicious transactions flagged in hundreds of FinCEN Suspicious Activity Reports. The bank's ability to negotiate deferred prosecution for most of its parent entities — while a subsidiary took the criminal plea — illustrates how elite financial institutions navigate accountability that would land others in prison.",
+			"why": "Goldman Sachs helped orchestrate the 1MDB scandal — the largest kleptocracy in Malaysian history — raising $6.5B in bonds for a sovereign wealth fund while its subsidiary paid $1.6B in bribes to secure the business. Goldman's Malaysian subsidiary pleaded guilty in 2020; the bank paid $2.9B to US authorities and $3.9B globally. ICIJ's FinCEN Files documented Goldman Sachs processing suspicious transactions flagged in hundreds of FinCEN Suspicious Activity Reports. The bank's ability to negotiate deferred prosecution for most of its parent entities — while a subsidiary took the criminal plea — illustrates how elite financial institutions navigate accountability that would land others in prison. Separately, DOJ documents released in January 2026 revealed Goldman's chief legal officer Kathryn Ruemmler exchanged intimate emails with Epstein — calling him \"Uncle Jeffrey\" and accepting gifts including a Hermès bag — and was one of three people he called immediately after his July 2019 arrest; she resigned from Goldman in February 2026. Epstein also held an account at Goldman Sachs, per a suspicious-activity report JPMorgan filed with FinCEN after his death.",
 			"blurb": "Global investment bank providing securities trading, asset management, and financial advisory services.",
 			"harms": [
-				"elite_impunity_general"
+				"elite_impunity_general",
+				"elite_impunity_epstein_network"
 			],
 			"aligns": [],
-			"addedAt": "2026-04-11",
+			"addedAt": "2026-09-09",
 			"evidence": [
 				{
 					"tag": "elite_impunity_general",
@@ -20510,6 +20630,13 @@
 					"amountUsd": 2900000000,
 					"amountKind": "settlement",
 					"actor": "US Department of Justice"
+				},
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "Separately, DOJ documents released in January 2026 revealed Goldman's chief legal officer Kathryn Ruemmler exchanged intimate emails with Epstein — calling him \"Uncle Jeffrey\" and accepting gifts including a Hermès bag — and was one of three people he called immediately after his July 2019 arrest; she resigned from Goldman in February 2026. Epstein also held an account at Goldman Sachs, per a suspicious-activity report JPMorgan filed with FinCEN after his death.",
+					"date": "2026-02",
+					"actor": "Kathryn Ruemmler (chief legal officer)",
+					"sourceUrl": "https://www.cnbc.com/2026/02/12/epstein-files-goldman-sachs-kathy-ruemmler.html"
 				}
 			]
 		},
@@ -20525,13 +20652,14 @@
 			],
 			"cat": "finance",
 			"alts": [],
-			"why": "HSBC's Swiss private banking arm was exposed by ICIJ's SwissLeaks as systematically helping 30,000 clients in 200 countries hide ~$100B from tax authorities — including arms dealers, blood diamond traffickers, and politicians under investigation. HSBC paid $1.9B in 2012 for laundering money for the Sinaloa cartel and Juárez cartel, and for processing transactions for sanctioned regimes. Despite its criminal conduct, HSBC received a deferred prosecution agreement — no criminal conviction — because US regulators concluded the bank was 'too big to jail.' This two-tier justice system, where a major bank faces fines while individuals go to prison for far lesser offenses, exemplifies elite financial impunity.",
+			"why": "HSBC's Swiss private banking arm was exposed by ICIJ's SwissLeaks as systematically helping 30,000 clients in 200 countries hide ~$100B from tax authorities — including arms dealers, blood diamond traffickers, and politicians under investigation. HSBC paid $1.9B in 2012 for laundering money for the Sinaloa cartel and Juárez cartel, and for processing transactions for sanctioned regimes. Despite its criminal conduct, HSBC received a deferred prosecution agreement — no criminal conviction — because US regulators concluded the bank was 'too big to jail.' This two-tier justice system, where a major bank faces fines while individuals go to prison for far lesser offenses, exemplifies elite financial impunity. A French branch of HSBC closed one of Epstein's private-bank accounts in December 2007 after compliance officers flagged suspicious transactions, including payments tied to modeling agent Jean-Luc Brunel — the only known instance of a major bank cutting ties with Epstein before his 2008 guilty plea. Despite that closure, Epstein maintained other HSBC private-bank accounts in Switzerland that surfaced in a 2019 JPMorgan suspicious-activity report filed with FinCEN.",
 			"blurb": "Global bank offering retail, commercial, and investment banking services across many countries.",
 			"harms": [
-				"elite_impunity_general"
+				"elite_impunity_general",
+				"elite_impunity_epstein_network"
 			],
 			"aligns": [],
-			"addedAt": "2026-04-11",
+			"addedAt": "2026-09-09",
 			"evidence": [
 				{
 					"tag": "elite_impunity_general",
@@ -20539,6 +20667,13 @@
 					"date": "2012",
 					"amountUsd": 1900000000,
 					"amountKind": "settlement"
+				},
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "A French branch of HSBC closed one of Epstein's private-bank accounts in December 2007 after compliance officers flagged suspicious transactions, including payments tied to modeling agent Jean-Luc Brunel — the only known instance of a major bank cutting ties with Epstein before his 2008 guilty plea. Despite that closure, Epstein maintained other HSBC private-bank accounts in Switzerland that surfaced in a 2019 JPMorgan suspicious-activity report filed with FinCEN.",
+					"date": "2007-12",
+					"actor": "HSBC compliance officers (Paris branch)",
+					"sourceUrl": "https://www.bloomberg.com/features/2025-jeffrey-epstein-emails-hsbc/"
 				}
 			]
 		},
@@ -34804,6 +34939,94 @@
 				}
 			],
 			"addedAt": "2026-09-08"
+		},
+		{
+			"id": "bny_mellon",
+			"avoid": "BNY Mellon",
+			"ownership": [
+				{
+					"firmId": "bny_mellon",
+					"stake": "majority",
+					"since": "2007"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "Bank of New York Mellon (BNY) is one of the world's largest custody banks, providing asset servicing, custody, and investment management to institutional clients. Senate Finance Committee investigators found that Jeffrey Epstein moved $378 million through 270 wire transfers in and out of BNY accounts, including a string of 18 round-dollar $1 million wires in 2007 sent to his JPMorgan Chase accounts — a pattern Senator Ron Wyden called indicative of money laundering. BNY did not flag any of these transactions to federal regulators until 2019, more than a decade after they occurred.",
+			"blurb": "Global custody bank offering asset servicing and investment management for institutions.",
+			"harms": [
+				"elite_impunity_epstein_network"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "Bank of New York Mellon (BNY) is one of the world's largest custody banks, providing asset servicing, custody, and investment management to institutional clients. Senate Finance Committee investigators found that Jeffrey Epstein moved $378 million through 270 wire transfers in and out of BNY accounts, including a string of 18 round-dollar $1 million wires in 2007 sent to his JPMorgan Chase accounts — a pattern Senator Ron Wyden called indicative of money laundering. BNY did not flag any of these transactions to federal regulators until 2019, more than a decade after they occurred.",
+					"date": "2019",
+					"amountUsd": 378000000,
+					"actor": "Senate Finance Committee (Sen. Ron Wyden)",
+					"sourceUrl": "https://www.bloomberg.com/news/articles/2026-01-15/bny-s-378-million-of-epstein-transfers-draws-senator-s-scrutiny"
+				}
+			],
+			"addedAt": "2026-09-09"
+		},
+		{
+			"id": "david_protein",
+			"avoid": "David Protein",
+			"ownership": [
+				{
+					"firmId": "david_protein",
+					"stake": "majority",
+					"since": "2023"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "David Protein is a venture-backed protein-bar startup co-founded in 2023, with longevity physician Peter Attia serving as chief science officer. DOJ documents released in January 2026 showed Attia's name appearing in Epstein's files more than 1,700 times, including personal and sexually crude email exchanges with Epstein throughout the 2010s. Attia has not been accused of wrongdoing and says he never visited Epstein's plane or island, but he stepped down as David Protein's chief science officer in February 2026 amid the fallout.",
+			"blurb": "High-protein snack bars sold direct to consumer.",
+			"harms": [
+				"elite_impunity_epstein_network"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "David Protein is a venture-backed protein-bar startup co-founded in 2023, with longevity physician Peter Attia serving as chief science officer. DOJ documents released in January 2026 showed Attia's name appearing in Epstein's files more than 1,700 times, including personal and sexually crude email exchanges with Epstein throughout the 2010s. Attia has not been accused of wrongdoing and says he never visited Epstein's plane or island, but he stepped down as David Protein's chief science officer in February 2026 amid the fallout.",
+					"date": "2026-02",
+					"actor": "Peter Attia (chief science officer)",
+					"sourceUrl": "https://techcrunch.com/2026/02/03/epstein-linked-longevity-guru-peter-attia-leaves-david-protein-and-his-own-startup-wont-comment/"
+				}
+			],
+			"addedAt": "2026-09-09"
+		},
+		{
+			"id": "dp_world",
+			"avoid": "DP World",
+			"ownership": [
+				{
+					"firmId": "dp_world",
+					"stake": "majority",
+					"since": "2005"
+				}
+			],
+			"cat": "finance",
+			"alts": [],
+			"why": "DP World is a Dubai state-owned multinational logistics and port operator running marine terminals in more than 40 countries. Its longtime chairman and CEO, Sultan Ahmed bin Sulayem, was replaced as chairman in February 2026 after DOJ-released documents showed his name in Epstein's files over 9,400 times, including correspondence in which Epstein acted as an intermediary helping bin Sulayem lobby the UK government in 2009 for support on the £1.8 billion London Gateway port project. Canadian and UK finance groups paused new business with DP World following the revelations.",
+			"blurb": "Global port operator and logistics services company running marine terminals worldwide.",
+			"harms": [
+				"elite_impunity_epstein_network"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "elite_impunity_epstein_network",
+					"text": "DP World is a Dubai state-owned multinational logistics and port operator running marine terminals in more than 40 countries. Its longtime chairman and CEO, Sultan Ahmed bin Sulayem, was replaced as chairman in February 2026 after DOJ-released documents showed his name in Epstein's files over 9,400 times, including correspondence in which Epstein acted as an intermediary helping bin Sulayem lobby the UK government in 2009 for support on the £1.8 billion London Gateway port project. Canadian and UK finance groups paused new business with DP World following the revelations.",
+					"date": "2026-02",
+					"actor": "DP World board",
+					"sourceUrl": "https://www.cnn.com/2026/02/13/business/dp-world-sultan-sulayem-epstein-intl"
+				}
+			],
+			"addedAt": "2026-09-09"
 		}
 	]
 }

@@ -2210,6 +2210,22 @@
         "kuku_farms"
       ],
       "source": "https://mercyforanimals.org/investigations/"
+    },
+    {
+      "id": "2026-09-09-epstein_flight_logs",
+      "date": "2026-09-09",
+      "title": "The 2026 Epstein document dump keeps naming new companies",
+      "strategy": "epstein_flight_logs",
+      "strategyLabel": "Epstein flight logs & court filings",
+      "value": "elite_impunity",
+      "summary": "January's DOJ release didn't just burn individuals — it's costing companies their leadership, from a global port operator to a protein-bar startup, and it's re-implicating banks already in this database.",
+      "body": "The DOJ's January 2026 release of roughly 3 million Epstein-related pages triggered a fresh wave of corporate fallout. Bank of New York Mellon is now facing Senate Finance Committee scrutiny after investigators found Epstein moved $378 million through 270 BNY wire transfers — including 18 suspiciously round $1 million payments in 2007 — that the bank didn't flag to regulators until 2019. DP World, the Dubai state-owned port operator, replaced its longtime chairman after documents showed Epstein acted as a go-between helping him lobby the UK government on a £1.8 billion port deal.\n\nNot every name is a bank or a conglomerate. Peter Attia, chief science officer at protein-bar startup David Protein, stepped down in February after his name turned up over 1,700 times in the released files, including years of personal correspondence with Epstein. He hasn't been accused of wrongdoing, but the resignation shows how far the fallout reaches down the size ladder — from systemic banks to a three-year-old snack company.\n\nThe release also added new specifics to two firms already flagged here. Goldman Sachs' chief legal officer, Kathryn Ruemmler, resigned in February after emails showed her calling Epstein \"Uncle Jeffrey\" and accepting gifts from him; she was also one of three people he phoned right after his 2019 arrest. And a newly surfaced 2007 letter shows HSBC's Paris branch quietly closed one of Epstein's accounts over suspicious transactions — the only known instance of a major bank cutting him off before his first guilty plea, even as other HSBC accounts of his kept operating elsewhere.\n\nTaken together, the run underscores that elite-impunity harm isn't confined to Epstein's inner circle of billionaires — it runs through the institutions, boards, and payroll they touched.",
+      "entityIds": [
+        "bny_mellon",
+        "david_protein",
+        "dp_world"
+      ],
+      "source": "https://www.documentcloud.org/documents/24380582-epstein-documents"
     }
   ]
 }
