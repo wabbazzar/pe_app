@@ -2226,6 +2226,21 @@
         "dp_world"
       ],
       "source": "https://www.documentcloud.org/documents/24380582-epstein-documents"
+    },
+    {
+      "id": "2026-09-10-mercy_for_animals_investigations",
+      "date": "2026-09-10",
+      "title": "Two Costco Chicken Chains, One Oklahoma Hog Farm, Same Pattern",
+      "strategy": "mercy_for_animals_investigations",
+      "strategyLabel": "Mercy For Animals investigations",
+      "value": "animals",
+      "summary": "This run traces the supply chains behind two of the biggest names in American groceries — Costco and Walmart — down to the specific farms where undercover cameras caught the abuse.",
+      "body": "Lincoln Premium Poultry isn't a household name, but it's the reason Costco can sell a $4.99 rotisserie chicken: Costco built the Fremont, Nebraska hatchery, feed mill, and plant itself in 2016 specifically to control its own bird supply. A 2021 Mercy For Animals investigation at one of its supplier farms found chickens bred to grow so fast many couldn't support their own weight, hundreds of thousands of birds packed into filthy sheds, and chicks with exposed organs and untreated ammonia burns. Congress later pressed the FTC to look into Costco's animal-welfare claims.\n\nWest Coast Farms, an Oklahoma hog operation, sat at the other end of a similar chain — raising pigs for Tyson Foods, whose pork moved through Walmart. A 2013 Mercy For Animals investigator spent three weeks documenting workers gouging pigs' eyes and throwing a bowling ball at one animal's head. Tyson dropped the farm within days of the footage airing.\n\nThe throughline: both cases show a retailer's brand promise resting on a supplier several links removed, where the retailer's own leverage — a contract, an ownership stake — was enough to end the relationship fast once the footage became public, but not enough to prevent the conditions in the first place.",
+      "entityIds": [
+        "west_coast_farms",
+        "lincoln_premium_poultry"
+      ],
+      "source": "https://mercyforanimals.org/investigations/"
     }
   ]
 }

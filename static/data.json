@@ -16152,6 +16152,38 @@
 				}
 			],
 			"addedAt": "2026-09-09"
+		},
+		{
+			"id": "west_coast_farms",
+			"name": "West Coast Farms",
+			"aum": "N/A",
+			"aumVal": 0,
+			"summary": "A contract hog farm in Okfuskee County, Oklahoma that raised pigs for Tyson Foods, which sold the pork through Walmart stores. A 2013 Mercy For Animals undercover investigation, filmed over three weeks from September 18 to October 12, documented workers gouging pigs' eyes, slamming baby pigs headfirst into concrete, and throwing a bowling ball at an animal's head. Tyson Foods terminated its contract with the farm on November 23, 2013, after the footage aired.",
+			"blurb": "Contract hog farm in Oklahoma that raised pigs for Tyson Foods.",
+			"brands": [],
+			"layoffs": "N/A",
+			"notableBk": "N/A",
+			"harmScore": 75,
+			"scope": "single_company",
+			"role": "actor",
+			"source": "https://www.nbcnews.com/news/world/tyson-foods-dumps-pig-farm-after-nbc-shows-company-video-flna2D11627571",
+			"cats": [
+				"food"
+			],
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2013 Mercy For Animals undercover investigation, filmed over three weeks from September 18 to October 12, documented workers gouging pigs' eyes, slamming baby pigs headfirst into concrete, and throwing a bowling ball at an animal's head. Tyson Foods terminated its contract with the farm on November 23, 2013.",
+					"date": "2013",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.nbcnews.com/news/world/tyson-foods-dumps-pig-farm-after-nbc-shows-company-video-flna2D11627571"
+				}
+			],
+			"addedAt": "2026-09-10"
 		}
 	],
 	"brands": [
@@ -35027,6 +35059,63 @@
 				}
 			],
 			"addedAt": "2026-09-09"
+		},
+		{
+			"id": "west_coast_farms",
+			"avoid": "West Coast Farms",
+			"ownership": [
+				{
+					"firmId": "west_coast_farms",
+					"stake": "majority"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A contract hog farm in Okfuskee County, Oklahoma that raised pigs for Tyson Foods, which sold the pork through Walmart stores. A 2013 Mercy For Animals undercover investigation, filmed over three weeks from September 18 to October 12, documented workers gouging pigs' eyes, slamming baby pigs headfirst into concrete, and throwing a bowling ball at an animal's head. Tyson Foods terminated its contract with the farm on November 23, 2013, after the footage aired.",
+			"blurb": "Contract hog farm in Oklahoma that raised pigs for Tyson Foods.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2013 Mercy For Animals undercover investigation, filmed over three weeks from September 18 to October 12, documented workers gouging pigs' eyes, slamming baby pigs headfirst into concrete, and throwing a bowling ball at an animal's head. Tyson Foods terminated its contract with the farm on November 23, 2013.",
+					"date": "2013",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.nbcnews.com/news/world/tyson-foods-dumps-pig-farm-after-nbc-shows-company-video-flna2D11627571"
+				}
+			],
+			"addedAt": "2026-09-10"
+		},
+		{
+			"id": "lincoln_premium_poultry",
+			"avoid": "Lincoln Premium Poultry",
+			"ownership": [
+				{
+					"firmId": "costco_wholesale",
+					"stake": "majority",
+					"since": "2016"
+				}
+			],
+			"cat": "food",
+			"alts": [],
+			"why": "A Fremont, Nebraska poultry hatchery, feed mill, and processing plant that Costco founded in 2016 and controls to supply itself with tens of millions of the roughly 100 million rotisserie chickens it sells each year. A 2021 Mercy For Animals undercover investigation at a Lincoln Premium Poultry supplier farm documented chickens bred to grow so large so fast that many could not support their own weight or died of organ failure, hundreds of thousands of birds packed into filthy sheds living in their own waste, and chicks with exposed internal organs, broken bones, and untreated ammonia burns. Members of Congress subsequently pressed the FTC to investigate Costco's animal-welfare claims.",
+			"blurb": "Poultry hatchery and processing plant Costco built and controls to supply its rotisserie chicken.",
+			"harms": [
+				"animals_general"
+			],
+			"aligns": [],
+			"evidence": [
+				{
+					"tag": "animals_general",
+					"text": "A 2021 Mercy For Animals undercover investigation at a Lincoln Premium Poultry supplier farm documented chickens bred to grow so large so fast that many could not support their own weight or died of organ failure, hundreds of thousands of birds packed into filthy sheds, and chicks with exposed internal organs, broken bones, and untreated ammonia burns.",
+					"date": "2021",
+					"actor": "Mercy For Animals",
+					"sourceUrl": "https://www.grocerydive.com/news/costco-faces-backlash-over-poultry-farm-conditions/594834/"
+				}
+			],
+			"addedAt": "2026-09-10"
 		}
 	]
 }
